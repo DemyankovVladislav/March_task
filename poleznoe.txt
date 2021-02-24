@@ -1,0 +1,4 @@
+					Для расширения диска LVM
+https://4te.me/post/kak-rashirit-lvm-razdel/
+https://www.sim-networks.com/wiki/add-disk-space-linux-server-lvm-debian
+-------------------------------------------------------------------------------------
