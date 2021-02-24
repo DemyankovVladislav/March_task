@@ -1,1 +1,4 @@
-https://losst.ru/sobiraem-yadro-linux
+https://losst.ru/sobiraem-yadro-linux -- 23.02.2021 (собираем ядро)
+https://losst.ru/moduli-yadra-linux 
+http://citforum.ru/operating_systems/linux/lkmpg/ --книга
+
