@@ -1,0 +1,16 @@
+TASK
+Company ABC is planning to evaluate NFS as a replacement of the current backup system.
+You have been asked to help. Could you please prepare proof-of-concept with 2 VMs – 1 for server and 1 for client. Please use official documentation and guide.
+DEFINITION OF DONE
+1)     2 Linux (centos7) VMs are up and running (via virtualbox);
+2)     Bash script provision.sh should be parametrized and automatically install and configure NFS server on the 1 VM with parameter “server”, and should automatically install and dynamically configure client on the 2 VM with parameter “client”;
+3)     Bash script backup.sh should create versioned archive with date and time ${date}-${time}.tar.gz file (e.g. 17-02-2020-00:00:03.tar.gz) with content of /root/.* and /home/*/.* and push to NFS server. Also, script should generate crontab rule to run script one time per day
+
+
+TASK 2
+Company ABC is planning to evaluate “Zabbix” as a replacement of the current monitoring system. You have been asked to help. Could you please prepare proof-of-concept with 2 virtual machines (VMs) – 1 for server and 1 for agent. Please use official documentation and guide - https://www.zabbix.com/documentation/4.4/manual/installation/install_from_packages/rhel_centos
+DEFINITION OF DONE
+1)     2 Linux (centos7) VMs are up and running;
+2)     First bash script should automatically install and configure Zabbix server on the 1 VM, second bash script should automatically install agent on the 2 VMs;
+3)     VM 2 added to the Zabbix server manually with attached linux template (https://www.zabbix.com/documentation/4.2/manual/config/hosts/host);
+4)     Latest data confirms you are receiving Linux metrics data. (https://zabbix.com/documentation/4.2/manual/web_interface/frontend_sections/monitoring/latest_data)
