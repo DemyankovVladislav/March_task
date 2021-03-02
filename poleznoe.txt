@@ -6,3 +6,7 @@ https://www.sim-networks.com/wiki/add-disk-space-linux-server-lvm-debian
 
 https://habr.com/ru/post/78094/
 https://cyber-x.ru/сборка-программ-из-исходников-в-linux/
+https://serveradmin.ru/sravnenie-zabbix-vs-prometheus/
+https://www.dmosk.ru/instruktions.php?object=prometheus-linux
+https://laurvas.ru/prometheus-p1/
+https://prometheus.io/docs/prometheus/latest/getting_started/
