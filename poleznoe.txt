@@ -2,3 +2,7 @@
 https://4te.me/post/kak-rashirit-lvm-razdel/
 https://www.sim-networks.com/wiki/add-disk-space-linux-server-lvm-debian
 -------------------------------------------------------------------------------------
+Для ознакомления 02/03/2021:
+
+https://habr.com/ru/post/78094/
+https://cyber-x.ru/сборка-программ-из-исходников-в-linux/
