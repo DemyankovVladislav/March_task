@@ -9,9 +9,9 @@ elif [[ "$name" == "Server"  && !   -d /mnt/shara ]]; then
   sudo apt-get update
   sudo apt-get install nfs-kernel-server nfs-common -y
 #Создание директории и изменения прав
-  sudo mkdir –p /mnt/shara
-  sudo chown nobody:nogroup /mnt/shara
+  sudo mkdir -p /mnt/shara
   sudo chmod 777 /mnt/shara
+  sudo chown nobody:nogroup /mnt/shara
 #Разрешения доступа для подсети 192.168.100.0 ссылка на пояснения параметров https://help.ubuntu.ru/wiki/nfs
   sudo echo "/mnt/shara 192.168.100.0/24(rw,insecure,nohide,all_squash,anonuid=1000,anongid=1000,no_subtree_check)" | tee -a  /etc/exports
 #Экспорт общего каталога и ребут ядра NFS
@@ -36,4 +36,5 @@ elif [[ "$name" == "Client"  &&  ! -d /mnt/shara_client ]]; then
 else
   echo “Идите лесом мы вас не звали”
 fi
+
 
